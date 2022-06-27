@@ -1604,7 +1604,7 @@ nc_inq_format_extended(int ncid, int *formatp, int *modep)
    unlimited length dimension has been defined, -1 is returned. Ignored
    if NULL.  If there are multiple unlimited dimensions (possible only
    for netCDF-4 files), only a pointer to the first is returned, for
-   backward compatibility.  If you want them all, use nc_inq_unlimids().
+   backward compatibility.  If you want them all, use nc_inq_unlimdims().
 
    \returns ::NC_NOERR No error.
 
